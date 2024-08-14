@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Magnets</title>
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            color: #007bff;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #007bff;
+        }
+        .hero {
+            background-color: #e9ecef;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .services, .gallery, .contact {
+            padding: 40px 20px;
+        }
+        .service-item, .gallery-item {
+            margin-bottom: 20px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Photo Magnets</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">نبذة عنا</a></li>
+                <li><a href="#services">خدماتنا</a></li>
+                <li><a href="#contact">اتصل بنا</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="about">
+        <h2>مرحبا بكم في Photo Magnets</h2>
+        <p>"Photo Magnets" هو مشروع مبتكر متخصص في تحويل لحظاتك المفضلة إلى صور مغناطيسية أنيقة، مثالية للتزيين والاستخدام الشخصي أو كهدية مميزة. نهدف إلى تقديم منتج يجمع بين الجمال والوظيفة، حيث يمكن لعملائنا تعليق صورهم المفضلة على أي سطح معدني بسهولة، مثل الثلاجات أو المكاتب، مما يجعلهم يستمتعون بتلك اللحظات طوال اليوم.</p>
+        <p>رسالتنا هي توفير طريقة فريدة لتحويل الذكريات والصور إلى قطع فنية مغناطيسية تلهم البهجة وتضفي لمسة شخصية على مساحات عملك أو منزلك.</p>
+    </section>
+
+    <section class="services" id="services">
+        <h2>خدماتنا</h2>
+        <div class="service-item">
+            <h3>تصميم مغناطيسات الصور الشخصية</h3>
+            <p>حول صورك الخاصة إلى مغناطيسات مخصصة بحجم وشكل يتناسب مع احتياجاتك.</p>
+        </div>
+        <div class="service-item">
+            <h3>هدايا مخصصة</h3>
+            <p>نوفر خدمة صنع مغناطيسات الصور كهدايا مميزة للأصدقاء، العائلة، أو المناسبات الخاصة.</p>
+        </div>
+        <div class="service-item">
+            <h3>مغناطيسات ترويجية</h3>
+            <p>نقدم حلول مغناطيسية للشركات لاستخدامها كأداة تسويقية مبتكرة.</p>
+        </div>
+        <div class="service-item">
+            <h3>مجموعات مغناطيسية</h3>
+            <p>اختر من بين مجموعة متنوعة من التصاميم الجاهزة لأحداث مثل الأعياد، حفلات الزفاف، وأعياد الميلاد.</p>
+        </div>
+    </section>
+
+    <section class="gallery">
+        <h2>معرض الصور</h2>
+        <!-- يمكنك إضافة صور هنا -->
+        <div class="gallery-item">
+            <img src="path-to-your-image.jpg" alt="صورة مغناطيسية مثال" style="width:100%; max-width:300px;">
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>اتصل بنا</h2>
+        <form class="contact-form">
+            <input type="text" name="name" placeholder="الاسم" required>
+            <input type="email" name="email" placeholder="البريد الإلكتروني" required>
+            <textarea name="message" placeholder="رسالتك" rows="4" required></textarea>
+            <button type="submit">إرسال</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Photo Magnets. جميع الحقوق محفوظة.</p>
+    </footer>
+</body>
+</html>
